@@ -1,0 +1,137 @@
+@media screen and (max-width:1440px){
+    
+}
+body {
+    background: linear-gradient(rgb(153, 95, 247),rgb(167, 181, 228),rgb(170, 131, 241));  
+    text-align:right;
+    width: 100vw;
+    
+}
+/* main {
+    margin: 2%;
+} */
+nav {
+    background: linear-gradient(rgb(153, 95, 247),rgb(167, 181, 228),rgb(170, 131, 241));  
+        font-weight: bold; 
+        width: 100vw;
+
+}
+/* .branch {
+    background: rgb(100, 59, 151);
+} */
+
+input {
+    border-radius: 5%;
+}
+
+ul {
+    list-style-type: none;
+     display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+#more {
+    text-align:right;
+}
+.artone {
+    margin: 2%;
+}
+.artone img {
+    width: 80vw;
+}
+.hotels img {
+    width: 400px;
+    height: 200px;; 
+}
+.event img {
+    width: 300px;
+    height: 200px;
+}
+.event li {
+    font-weight: bold; 
+
+}
+/* .hotel {
+    display: inline-block;
+    display: flex;
+    
+} */
+.artone {
+    text-align: center;
+}
+.branch a{
+    color: blanchedalmond;
+}
+
+h1 {
+    text-shadow: 6px 6px 5px rgb(170,170,170);   
+}
+h2 {
+    text-shadow: 5px 6px 5px rgb(170,170,170);   
+}
+img {
+    border-radius: 5%;
+    box-shadow: 10px 10px 15px;
+    
+}
+
+.img {
+    margin: 2%;
+}
+h5 {
+    text-align: right;
+    padding: 2%;
+}
+/* footer {
+    height: 300px;
+    width: 100vw;
+}
+#fone {
+    text-align: right;
+}
+#ftwo {
+    text-align: center;
+}
+#ftree {
+    text-align: left;
+} */
+footer p {
+    text-align: left;
+    margin: 3%;
+}
+#Registration {
+    box-shadow: 10px 10px 15px;
+    padding: 1.5%;
+}
+#Registration:hover {
+    background-color: rgb(191, 179, 219);
+}
+footer ul {
+    margin: 3%;
+    text-align: right;
+}
+footer div {
+    border: rgb(116, 107, 107) 1px solid;
+}
+/* #ball {
+    background: rgb(241, 236, 236);
+    width: 30px;
+    height: 30px;
+    box-shadow: 10px 10px 15px;
+    border-radius: 50%
+    ;animation-direction:alternate;
+    transform-origin: top;
+    animation-name: ball;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+   position: absolute;
+
+}
+@keyframes ball {
+        0%   {background-color:rgb(243, 20, 157);margin-top: 40%;margin-right: 10%; }
+        25%  {background-color:rgb(219, 94, 146); }
+        50%  {background-color:rgb(204, 92, 154);}
+        75%  {background-color:rgb(236, 183, 183);}
+        100% {background-color:rgb(240, 233, 233);margin-top: 10%;margin-right: 10%; }
+      } */

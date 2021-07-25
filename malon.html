@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="malon.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+            <!-- <ul>
+                <li><a href="">
+                    מלון תל אביב</a></li>
+                <li><a href="">
+                    מלון באר שבע</a></li>
+                <li><a href="">
+                    מלון אילת</a></li>
+                 <li><a href="">
+                     מלון אשדוד</a></li>
+                 <li><a href="">
+                    מלון הרצליה </a></li>
+
+            </ul> -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="file:///C:/Users/Shirel%20Hailu/Desktop/%D7%98%D7%A7%20%D7%A7%D7%A8%D7%99%D7%99%D7%94%20-%20%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95%20%D7%A7%D7%95%D7%93/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%20%D7%A2%D7%9D%20%D7%90%D7%A1%D7%A6%D7%9C%D7%99%D7%9F/malon/malon.html">דף הבית</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">אירוח</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">השכרת רכב</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        סניפים 
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="file:///C:/Users/Shirel%20Hailu/Desktop/%D7%98%D7%A7%20%D7%A7%D7%A8%D7%99%D7%99%D7%94%20-%20%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95%20%D7%A7%D7%95%D7%93/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%20%D7%A2%D7%9D%20%D7%90%D7%A1%D7%A6%D7%9C%D7%99%D7%9F/malon/BranchC.html">אשדוד</a></li>
+                        <li><a class="dropdown-item" href="file:///C:/Users/Shirel%20Hailu/Desktop/%D7%98%D7%A7%20%D7%A7%D7%A8%D7%99%D7%99%D7%94%20-%20%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95%20%D7%A7%D7%95%D7%93/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%20%D7%A2%D7%9D%20%D7%90%D7%A1%D7%A6%D7%9C%D7%99%D7%9F/malon/BranchE.html"> באר שבע</a></li>
+                        <li><a class="dropdown-item" href="file:///C:/Users/Shirel%20Hailu/Desktop/%D7%98%D7%A7%20%D7%A7%D7%A8%D7%99%D7%99%D7%94%20-%20%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95%20%D7%A7%D7%95%D7%93/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%20%D7%A2%D7%9D%20%D7%90%D7%A1%D7%A6%D7%9C%D7%99%D7%9F/malon/BranchB.html">הרצליה</a></li>
+                        <li><a class="dropdown-item" href="file:///C:/Users/Shirel%20Hailu/Desktop/%D7%98%D7%A7%20%D7%A7%D7%A8%D7%99%D7%99%D7%94%20-%20%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95%20%D7%A7%D7%95%D7%93/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%20%D7%A2%D7%9D%20%D7%90%D7%A1%D7%A6%D7%9C%D7%99%D7%9F/malon/BranchA.html">תל אביב</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="file:///C:/Users/Shirel%20Hailu/Desktop/%D7%98%D7%A7%20%D7%A7%D7%A8%D7%99%D7%99%D7%94%20-%20%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95%20%D7%A7%D7%95%D7%93/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%20%D7%A2%D7%9D%20%D7%90%D7%A1%D7%A6%D7%9C%D7%99%D7%9F/malon/BranchD.html#">  אילת</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">אטרקציות</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">דילים מטורפים</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+              </nav>
+    </header>
+    <main>
+      <!-- <form class="branch">
+        <label><a href="file:///C:/Users/Shirel%20Hailu/Desktop/%D7%98%D7%A7%20%D7%A7%D7%A8%D7%99%D7%99%D7%94%20-%20%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95%20%D7%A7%D7%95%D7%93/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%20%D7%A2%D7%9D%20%D7%90%D7%A1%D7%A6%D7%9C%D7%99%D7%9F/malon/BranchA.html"target="_blank">
+           סניף תל אביב <img src="https://tabaks.co.il/wp-content/uploads/2018/11/Left-Arrow.png" alt="חץ" width="10px" height="10px"></a></label>
+         <label><a href="file:///C:/Users/Shirel%20Hailu/Desktop/%D7%98%D7%A7%20%D7%A7%D7%A8%D7%99%D7%99%D7%94%20-%20%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95%20%D7%A7%D7%95%D7%93/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%20%D7%A2%D7%9D%20%D7%90%D7%A1%D7%A6%D7%9C%D7%99%D7%9F/malon/BranchB.html" target="_blank">
+           סניף הרצליה <img src="https://tabaks.co.il/wp-content/uploads/2018/11/Left-Arrow.png" alt="חץ" width="10px" height="10px"></a></label>
+         <label><a href="file:///C:/Users/Shirel%20Hailu/Desktop/%D7%98%D7%A7%20%D7%A7%D7%A8%D7%99%D7%99%D7%94%20-%20%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95%20%D7%A7%D7%95%D7%93/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%20%D7%A2%D7%9D%20%D7%90%D7%A1%D7%A6%D7%9C%D7%99%D7%9F/malon/BranchC.html" target="_blank">
+           סניף אשדוד <img src="https://tabaks.co.il/wp-content/uploads/2018/11/Left-Arrow.png" alt="חץ" width="10px" height="10px"></a></label>
+         <label><a href="file:///C:/Users/Shirel%20Hailu/Desktop/%D7%98%D7%A7%20%D7%A7%D7%A8%D7%99%D7%99%D7%94%20-%20%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95%20%D7%A7%D7%95%D7%93/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%20%D7%A2%D7%9D%20%D7%90%D7%A1%D7%A6%D7%9C%D7%99%D7%9F/malon/BranchE.html" target="_blank">
+           סניף באר שבע<img src="https://tabaks.co.il/wp-content/uploads/2018/11/Left-Arrow.png" alt="חץ" width="10px" height="10px"></a></label>
+         <label><a href="file:///C:/Users/Shirel%20Hailu/Desktop/%D7%98%D7%A7%20%D7%A7%D7%A8%D7%99%D7%99%D7%94%20-%20%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95%20%D7%A7%D7%95%D7%93/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%20%D7%A2%D7%9D%20%D7%90%D7%A1%D7%A6%D7%9C%D7%99%D7%9F/malon/BranchD.html" target="_blank">
+           סניף אילת<img src="https://tabaks.co.il/wp-content/uploads/2018/11/Left-Arrow.png" alt="חץ" width="10px" height="10px"></a></label>
+             </form> -->
+        <section class="artone">
+        <h1>רשת מלונות היילו</h1>
+        <h2>
+            ברוכים הבאים לדף הבית שלנו 
+            </h2> <br>
+            <img src="https://www.goldencrown.co.il/files/catalog/item/thumbsrc/golden_square_banner.jpg" 
+            alt="hotel" class="img"> <br>
+            <h5> 
+              עם 5 מלונות שונים הפרושים ברחבי העיר, אפשר לומר שבתי מלון היא המומחיות שלנו<br>
+     עיר הנופש של ישראל קוראת לכם לצאת לחופשה חלומית מכל סוג שתבקשו במבחר בתי מלון מרשת היילו: <br>
+      חופשה משפחתית "הכל כלול", עם פעילויות, ארוחות מסביב לשעון, מועדוני ילדים, משחקים ועוד, <br>
+       חופשה רומנטית עם פינוקי ספא וארוחות משובחות, חופשת ספא הכוללת מתחם ספא, כושר, טיפולים ועוד.
+              <br></h5>
+              <h3>מוכנים לבחור את החופשה הבאה שלכם?</h3>
+            
+        </section >
+
+      <ul>
+        <li>
+        <section class="hotel">
+        <article class="hotels" id="one"><a href="file:///C:/Users/Shirel%20Hailu/Desktop/%D7%98%D7%A7%20%D7%A7%D7%A8%D7%99%D7%99%D7%94%20-%20%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95%20%D7%A7%D7%95%D7%93/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%20%D7%A2%D7%9D%20%D7%90%D7%A1%D7%A6%D7%9C%D7%99%D7%9F/malon/BranchA.html">         
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxwkx-LsTEOlHSal6I48xnmk_WpiBSNmnAuw&usqp=CAU" 
+            alt="מלון" class="img"></a>
+            <h3> מלון תל אביב</h3>
+            <p> רחוב: המסגר 5 , תל אביב</p>
+            <a href="">טלפון : 
+                03-5994523</a><br>
+        </article>
+      </li>
+      <li>
+        <article class="hotels" id="two"> <a href="file:///C:/Users/Shirel%20Hailu/Desktop/%D7%98%D7%A7%20%D7%A7%D7%A8%D7%99%D7%99%D7%94%20-%20%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95%20%D7%A7%D7%95%D7%93/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%20%D7%A2%D7%9D%20%D7%90%D7%A1%D7%A6%D7%9C%D7%99%D7%9F/malon/BranchE.html">           
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUd3e8nUxQ8mKDUlYCuOXkccC3YwBV62ZVnQ&usqp=CAU" 
+            alt="מלון" class="img"></a> 
+            <h3> מלון באר שבע </h3>
+            <p> רחוב : ויצמן 55 , באר שבע</p>
+            <a href="">טלפון : 
+                08-9854523</a><br>
+        </article>
+      </li>
+      <li>
+        <article class="hotels" id="tree"> <a href="file:///C:/Users/Shirel%20Hailu/Desktop/%D7%98%D7%A7%20%D7%A7%D7%A8%D7%99%D7%99%D7%94%20-%20%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95%20%D7%A7%D7%95%D7%93/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%20%D7%A2%D7%9D%20%D7%90%D7%A1%D7%A6%D7%9C%D7%99%D7%9F/malon/BranchD.html">           
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBYPtAzU1MpY5h8on11gKh95trzgupg908rg&usqp=CAU" 
+            alt="מלון" class="img"></a> 
+            <h3> מלון אילת </h3>
+            <p> רחוב : בן צבי 21 , אילת</p>
+            <a href="">
+                טלפון : 03-5415521</a><br>
+        </article>
+      </li>
+      <li>
+        <article class="hotels" id="four"><a href="file:///C:/Users/Shirel%20Hailu/Desktop/%D7%98%D7%A7%20%D7%A7%D7%A8%D7%99%D7%99%D7%94%20-%20%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95%20%D7%A7%D7%95%D7%93/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%20%D7%A2%D7%9D%20%D7%90%D7%A1%D7%A6%D7%9C%D7%99%D7%9F/malon/BranchC.html"> 
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlN9MUJvuArFweAZdb3G2BrJPCUL2ylqG0mw&usqp=CAU" 
+            alt="מלון" class="img"></a>
+            <h3> מלון אשדוד </h3>
+            <p> רחוב : ההסתדרות 12 , אשדוד</p>
+            <a href="">
+                טלפון : 09-5854145</a><br>
+        </article>
+      </li>
+      <li>
+        <article class="hotels" id="five"><a href="file:///C:/Users/Shirel%20Hailu/Desktop/%D7%98%D7%A7%20%D7%A7%D7%A8%D7%99%D7%99%D7%94%20-%20%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95%20%D7%A7%D7%95%D7%93/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%20%D7%A2%D7%9D%20%D7%90%D7%A1%D7%A6%D7%9C%D7%99%D7%9F/malon/BranchB.html">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcKeX5Mrf79VnYv2fJzA2h6--hGA7110REKw&usqp=CAU" 
+            alt="מלון" class="img"></a> 
+            <h3> מלון הרצליה </h3>
+            <p> רחוב : מוהליבר 5 , הרצליה</p>
+            <a href="">
+                טלפון : 08-8754982</a><br>
+            
+          </li>
+          </ul>
+        </article>
+        </section>
+        <h2 id="more">: עוד אירועים  </h2>
+        <section class="event"> 
+        <ul>
+            <li> <img src="https://modiin.mynet.co.il/picserver/mynet/wcm_upload/2020/03/05/HkNtQNCNI/Untitled.png" 
+                alt="יום הולדת" class="img"><br>
+                חגיגות יום הולדת ב5.7 <br>
+              בלובי המלון בתל אביב <br> 
+            הכולל עד 20 משתתפים</li>
+            <li> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwz_MXnjt60_3208wD0eQ8qT-86R9ZSg1og&usqp=CAU" 
+                alt="מסיבת הפתעה"class="img" > <br>
+                מסיבות הפתעה בלופט <br>
+              המלון בהרצליה ב8.9 <br>
+            הכולל עד 25 משתתפים</li>
+            <li> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNtOxj05HMr8y7Jadoc_lzaw24-whYd8I06TRqXgDKjZ0QTbUdsmZ6QOGn5pENKMfqWNU&usqp=CAU" 
+                alt="ברית" class="img"><br>
+              ברית בלובי המלון <br>
+            באילת ב7.7 <br>
+          הכולל עד 15 משתתפים</li>
+            <li> <img src="https://www.barbatmitzva.co.il/wp-content/uploads/2017/01/mizpe.yam_.4.jpg"
+                 alt="בת\בר מצווה" class="img"><br>
+                 בת מצוות בחדרי<br>
+                האוכל במלון ב4.9 <br>
+              הכולל עד 200 משתתפים</li>
+        </ul>
+       </section>
+       <br>
+       <form id="Registration">
+         <input type="submit" value="שלח">
+         <select id="malon" name="malon">
+          <option value="תל אביב">תל אביב</option>
+          <option value="באר שבע">באר שבע</option>
+          <option value="אילת">אילת</option>
+          <option value="הרצליה">הרצליה</option>
+          <option value="אשדוד">אשדוד</option>
+        </select>
+         <label>: סניף המלון </label>
+       <input type="date">
+       <label>: תאריך יציאה</label>
+       <input type="date">
+       <label>: תאריך כניסה </label>
+       <input type="text"placeholder= "שם מלא ">
+       <label>: שם מלא </label>
+      </form>
+     <section id="ball"></section>
+
+    </main>
+    <footer>
+      <div></div>
+       <ul>
+         <li>
+      <article id="ftree">
+        מלון היילו נמצא סמוך לאוצרות טבע מדהימים.<br>
+         מצידו האחד ים המלח, ספא טבעי עשיר במינרלים.<br>
+          מצידו השני שמורת עין גדי המפורסמת,<br>
+           השופעת נחלים ושרידים ארכיאולוגיים. <br>
+         במרחק נסיעה קצר תמצאו את גן לאומי מצדה<br>
+          ואת שמורת הטבע עינות צוקים,<br>
+           וכן מגוון ענק של מסלולי טיול מרהיבים.<br>
+          המלון עצמו שוכן בתוך גן בוטני ירוק ויפיפה.
+      </article>
+    </li>
+         <li>
+      <article id="fone">
+        <a href="">
+          home
+        </a><br>
+        <a href="">
+          our story
+        </a><br>
+        <a href="">
+          our rooms
+        </a><br>
+        <a href="">
+          News & Events
+        </a><br>
+      </article></li>
+      
+      <li>
+      <article id="ftwo">
+        <a href="">
+          Spa
+        </a><br>
+        <a href="">
+        Attractions
+        </a><br><a href="">
+          Restaurants
+        </a><br><a href="">
+          Contact Us
+        </a><br>
+      </article>
+      </li>
+    </ul>
+   
+    
+    <p>
+      להזמנות ולמידע : 054-6559728</p>                                            מלון היילו - hailu23@gmail.com כל הזכויות שמורות <br>
+        <div></div> 
+      
+
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

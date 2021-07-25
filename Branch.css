@@ -1,0 +1,107 @@
+body {
+    background: linear-gradient(rgb(153, 95, 247),rgb(167, 181, 228),rgb(170, 131, 241));  
+    text-align:right;
+    width: 100vw;
+}
+main {
+    margin: 2%;
+}
+nav {
+    background: linear-gradient(rgb(153, 95, 247),rgb(167, 181, 228),rgb(170, 131, 241));  
+        font-weight: bold; 
+        width: 100vw;
+}
+.branch label {
+    padding: 0.4%;
+}
+.branch{
+    font-weight: bold; 
+}
+h1 {
+    color: rgb(19, 3, 18);
+    text-shadow: 6px 6px 5px rgb(170,170,170);   
+}
+h4 {
+    color: rgb(27, 2, 26);
+    text-shadow: 6px 6px 5px rgb(170,170,170);    
+}
+.enrollment {
+    background:rgb(22, 15, 20);
+}
+img {
+    border-radius: 3%;
+    box-shadow: 10px 10px 15px;
+}
+#picone {
+    width: 90vw;
+    height: 400px;
+}
+#formtwo {
+    box-shadow: 10px 10px 15px;
+    padding: 1.4%;
+}
+span {
+    font-weight: bold;     
+    color: blueviolet;
+}
+ul {
+    list-style-type: none;
+     display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+ .work img{
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px;
+    transition: 2s;
+}
+.work img:hover {
+    width: 195px;
+    height: 195px;
+    
+}
+#picplace img {
+    transition: 2s;
+}
+#picplace img:hover {
+    width: 280px;
+    height: 180px;
+    
+
+
+}
+
+footer ul {
+    margin: 3%;
+    text-align: right;
+}
+footer div {
+    border: rgb(116, 107, 107) 1px solid;
+}.
+branch a{
+    color: blanchedalmond;
+}
+/* #ball {
+    background: rgb(241, 236, 236);
+    width: 10px;
+    height: 10px;
+    box-shadow: 10px 10px 15px;
+    border-radius: 50%
+    ;animation-direction:alternate;
+    transform-origin: top;
+    animation-name: ball;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+   position: absolute;
+
+}
+
+@keyframes ball {
+        0%   {background-color:rgb(153, 95, 247); margin-left: 100%; margin-top: 10%; }
+        25%  {background-color:rgb(167, 181, 228); margin-top: 5%;}
+        50%  {background-color:rgb(170, 131, 241); margin-top: 10%;}
+        75%  {background-color:rgb(236, 183, 183);margin-top: 5%;}
+        100% {background-color:rgb(240, 233, 233); max-width: 20px;margin-top: 10%; margin-right: 100%; }
+      }     */
+
